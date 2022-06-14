@@ -1,0 +1,79 @@
+<!-- Teams -->
+<section class="teams">
+    <div class="container">
+        <header class="section-header">
+            <h1 class="heading"><span>T</span>eams</h1>
+        </header>
+        <div class="in">
+            <div class="row" id="team1">
+                <div class="col-md-4">
+                    <h1><span id="number">1.</span> Data Extraction</h1>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4 col-md-3" *ngFor="let item of teams">
+                                <div class="card cursor-pointer align-items-center justify-content-center"
+                                    [routerLink]="['/company/details/1243124']">
+                                    <img [src]="item?.image" alt="" width="130px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="team2">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-3" *ngFor="let item of teams">
+                            <div class="card cursor-pointer align-items-center justify-content-center"
+                                [routerLink]="['/company/details/1243124']">
+                                <img [src]="item?.image" alt="" width="130px">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h1><span id="number">2.</span> Data Extraction</h1>
+                </div>
+            </div>
+            <div class="row" id="team1">
+                <div class="col-md-4">
+                    <h1><span id="number">3.</span> Data Visualization</h1>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4 col-md-3" *ngFor="let item of teams">
+                                <div class="card cursor-pointer align-items-center justify-content-center"
+                                    [routerLink]="['/company/details/1243124']">
+                                    <img [src]="item?.image" alt="" width="130px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="team2">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4 col-md-3" *ngFor="let item of teams">
+                                <div class="card cursor-pointer align-items-center justify-content-center"
+                                    [routerLink]="['/company/details/1243124']">
+                                    <img [src]="item?.image" alt="" width="130px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h1><span id="number">4.</span> Web Integration</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Teams -->

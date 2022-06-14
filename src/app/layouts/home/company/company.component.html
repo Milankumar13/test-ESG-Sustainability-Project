@@ -1,0 +1,23 @@
+<!-- List of companies start-->
+<section id="companies" class="companies">
+
+    <div class="container" data-aos="fade-up">
+
+        <header class="section-heade">
+            <h1 class="heading"><span>C</span>ompany</h1>
+        </header>
+
+        <div class="wrapper-grey padded">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-2" *ngFor="let item of companies">
+                        <div class="card cursor-pointer align-items-center justify-content-center" [routerLink]="['/company/details/1243124']">
+                            <img [src]="item?.image" alt="" width="130px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End List of companies-->
