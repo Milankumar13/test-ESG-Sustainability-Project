@@ -10,19 +10,23 @@ export class TeamComponent implements OnInit {
   teams: Array<any> = [
     {
       id: 12,
-      image: '/assets/companies/apple.png',
+      name: 'Maik Baum',
+      image: '/assets/img/user/0.png',
     },
     {
       id: 12,
-      image: '/assets/companies/google.png',
+      name: 'Lisa Fink',
+      image: '/assets/img/user/1.jpeg',
     },
     {
       id: 12,
-      image: '/assets/companies/puma.png',
+      name: 'Nadine',
+      image: '/assets/img/user/1.jpg',
     },
     {
       id: 12,
-      image: '/assets/companies/sap.png',
+      name: 'Baumgartner',
+      image: '/assets/img/user/3.png',
     },
   ]
 

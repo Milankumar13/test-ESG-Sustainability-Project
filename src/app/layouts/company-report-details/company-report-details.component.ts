@@ -247,7 +247,7 @@ export class CompanyReportDetailsComponent implements OnInit {
   };
   seriesGroups44 = [
     {
-      type: 'column',
+      type: 'line',
       useGradientColors: true,
       series: [
         { dataField: 'Sofia', fillColor: '#048BA8' },
@@ -262,7 +262,117 @@ export class CompanyReportDetailsComponent implements OnInit {
     }
   ];
 
+  // chars5
+  sampleData5 = [
+    { Day: 'Monday', 'Oklahoma City': 37, Sofia: 8, Bruges: 18 },
+    { Day: 'Tuesday', 'Oklahoma City': 29, Sofia: 11, Bruges: 16 },
+    { Day: 'Wednesday', 'Oklahoma City': 27, Sofia: 8, Bruges: 29 },
+    { Day: 'Thursday', 'Oklahoma City': 37, Sofia: 14, Bruges: 29 },
+    { Day: 'Friday', 'Oklahoma City': 37, Sofia: 11, Bruges: 27 },
+    { Day: 'Saturday', 'Oklahoma City': 39, Sofia: 6, Bruges: 24 },
+    { Day: 'Sunday', 'Oklahoma City': 42, Sofia: 8, Bruges: 21 }
+  ];
+  borderLineColor5 = '#808080';
+  caption5 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+  description5 = 'Lorem ipsum dolor sit amet.';
+  showLegend5 = true;
+  padding5 = { left: 5, top: 5, right: 5, bottom: 5 };
+  titlePadding5 = { left: 90, top: 0, right: 0, bottom: 10 };
+  dataSource5 = this.sampleData4;
+  xAxis5 = {
+    dataField: 'Day',
+    gridLines: {
+      visible: true,
+      color: '#404040',
+      step: 1
+    },
+    tickMarks: {
+      visible: true,
+      color: '#000000',
+      step: 2
+    },
+    valuesOnTicks: false
+  };
+  valueAxis5 = {
+    description: 'Time in minutes',
+    gridLines: {
+      visible: true,
+      color: '#404040',
+      step: 2
+    },
+    tickMarks: {
+      visible: true,
+      color: '#000000',
+      step: 1
+    },
+    axisSize: 'auto'
+  };
+  seriesGroups55 = [
+    {
+      type: 'steparea',
+      useGradientColors: true,
+      series: [
+        { dataField: 'Sofia', fillColor: '#16DB93' },
+        { dataField: 'Bruges', fillColor: '#048BA8' }
+      ]
+    }
+  ];
 
+  // chars6
+  sampleData6 = [
+    { Day: 'Monday', 'Oklahoma City': 37, Sofia: 8, Bruges: 18 },
+    { Day: 'Tuesday', 'Oklahoma City': 29, Sofia: 11, Bruges: 16 },
+    { Day: 'Wednesday', 'Oklahoma City': 27, Sofia: 8, Bruges: 29 },
+    { Day: 'Thursday', 'Oklahoma City': 37, Sofia: 14, Bruges: 29 },
+    { Day: 'Friday', 'Oklahoma City': 37, Sofia: 11, Bruges: 27 },
+    { Day: 'Saturday', 'Oklahoma City': 39, Sofia: 6, Bruges: 24 },
+    { Day: 'Sunday', 'Oklahoma City': 42, Sofia: 8, Bruges: 21 }
+  ];
+  borderLineColor6 = '#808080';
+  caption6 = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+  description6 = 'Lorem ipsum dolor sit amet.';
+  showLegend6 = true;
+  padding6 = { left: 5, top: 5, right: 5, bottom: 5 };
+  titlePadding6 = { left: 90, top: 0, right: 0, bottom: 10 };
+  dataSource6 = this.sampleData4;
+  xAxis6 = {
+    dataField: 'Day',
+    gridLines: {
+      visible: true,
+      color: '#404040',
+      step: 1
+    },
+    tickMarks: {
+      visible: true,
+      color: '#000000',
+      step: 2
+    },
+    valuesOnTicks: false
+  };
+  valueAxis6 = {
+    description: 'Time in minutes',
+    gridLines: {
+      visible: true,
+      color: '#404040',
+      step: 2
+    },
+    tickMarks: {
+      visible: true,
+      color: '#000000',
+      step: 1
+    },
+    axisSize: 'auto'
+  };
+  seriesGroups66 = [
+    {
+      type: 'waterfall',
+      useGradientColors: true,
+      series: [
+        { dataField: 'Sofia', fillColor: '#16DB93' },
+        { dataField: 'Bruges', fillColor: '#048BA8' }
+      ]
+    }
+  ];
   ngOnInit(): void {
     // onInit code.
   }

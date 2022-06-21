@@ -144,13 +144,15 @@ section {
 }
 
 .measures .row .heading {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .line {
-    border-left: 6px solid var(--primary-color);
-    height: 600px;
-    border-radius: 10px;
+    border-bottom: 3px solid var(--primary-color);
+    min-width: 22rem;
+    height: 5px;
+    border-radius: 4px;
+    margin-bottom: 2.5rem;
 }
 
 /* End measures */
@@ -193,6 +195,23 @@ section {
     cursor: pointer;
 }
 
+.card>img{
+    margin-bottom: 10px;
+}
+.card-header-name{
+    background: #3c3c3ceb;
+    padding: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0px 10px 10px;
+    font-family: auto;
+}
+
+.card-header-name>span{
+    text-transform: capitalize;
+    font-weight: 600;
+}
 
 /* End Company listing */
 

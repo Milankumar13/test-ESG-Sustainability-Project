@@ -10,10 +10,8 @@
         <div class="wrapper-grey padded">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4 col-md-2" *ngFor="let item of companies">
-                        <div class="card cursor-pointer align-items-center justify-content-center" [routerLink]="['/company/details/1243124']">
-                            <img [src]="item?.image" alt="" width="130px">
-                        </div>
+                    <div class="col-xs-12 col-sm-4 col-md-2" *ngFor="let cmp of companies">
+                        <app-company-card [company]="cmp" ></app-company-card>
                     </div>
                 </div>
             </div>

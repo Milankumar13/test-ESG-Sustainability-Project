@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { EmissionReportsComponent } from './emission-reports/emission-reports.component';
 import { AboutUsComponent } from './layouts/about-us/about-us.component';
 import { CompaniesListComponent } from './layouts/companies-list/companies-list.component';
 import { CompanyDetailsComponent } from './layouts/companies-list/company-details/company-details.component';
 import { CompanyReportDetailsComponent } from './layouts/company-report-details/company-report-details.component';
 import { HomeComponent } from './layouts/home/home.component';
 import { LayoutsComponent } from './layouts/layouts.component';
+import { RepositoryViewComponent } from './repository-view/repository-view.component';
 
 const routes: Routes = [
   {
@@ -36,6 +38,14 @@ const routes: Routes = [
       {
         path: 'company/report/details/:comId',
         component: CompanyReportDetailsComponent
+      },
+      {
+        path: 'repository/view',
+        component: RepositoryViewComponent
+      },
+      {
+        path: 'emission/reports',
+        component: EmissionReportsComponent
       }
     ]
   }

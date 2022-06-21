@@ -3,13 +3,14 @@
     <div class="container teams">
         <div class="row">
             <!-- Left-Side -->
-            <div class="col-md-6 col-sm-12  left">
+            <div class="col-md-8 col-sm-12  left">
                 <h1 class="heading"><span>C</span>ompany</h1>
             </div>
             <!-- Rigth-Side -->
-            <div class="col-md-6 col-sm-12 right">
-                <input type="text" placeholder="Search..">
-                <button type="submit"><i class="fa fa-search"></i></button>
+            <div class="col-md-4 col-sm-12 right search-box input-group">
+                <input type="text" class="form-control" placeholder="Search company name.." aria-label="Search company name.."
+                    aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa fa-search"></i></button>
             </div>
         </div>
     </div>
@@ -24,13 +25,9 @@
         <div class="wrapper-grey padded">
             <div class="container">
                 <div class="row">
-                    <ng-container *ngFor="let item of [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]">
-                        <div class="col-xs-12 col-sm-4 col-md-2" >
-                            <div class="img-cust-sty card align-items-center justify-content-center" [routerLink]="['/company/details/123123']" >
-                                <img src="/assets/companies/apple.png" alt="Image not found" width="130px">
-                            </div>
-                        </div>
-                    </ng-container>
+                    <div class="col-xs-12 col-sm-4 col-md-2" *ngFor="let cmp of companies">
+                        <app-company-card [company]="cmp"></app-company-card>
+                    </div>
                     <div class="col-md-12 text-center">
                         <button type="button" class="btn btn-light">View more</button>
                     </div>

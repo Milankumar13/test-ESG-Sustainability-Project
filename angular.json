@@ -32,6 +32,7 @@
               "node_modules/smart-webcomponents/source/styles/smart.default.css"
             ],
             "scripts": [
+              "src/assets/js/default.js",
               "node_modules/smart-webcomponents/source/modules/smart.accordion.js",
               "node_modules/smart-webcomponents/source/modules/smart.chart.js"
             ]

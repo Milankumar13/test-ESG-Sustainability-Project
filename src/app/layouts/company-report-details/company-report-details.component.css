@@ -25,14 +25,14 @@
     position: relative;
     border-radius: 10px;
     cursor: pointer;
-    padding: 1rem 2rem;
-    min-height: 39rem;
+    padding: 1rem 1rem;
+    min-height: 30rem;
 }
 
 smart-chart {
     display: block;
-    width: 525px;
-    height: 480px;
+    width: 550px;
+    height: 430px;
 }
 smart-check-box {
     position: relative;

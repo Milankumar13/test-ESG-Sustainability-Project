@@ -18,6 +18,10 @@ import { AboutUsComponent } from './layouts/about-us/about-us.component';
 import { ChartModule } from 'smart-webcomponents-angular/chart';
 import { ButtonModule } from 'smart-webcomponents-angular/button';
 import { CheckBoxModule } from 'smart-webcomponents-angular/checkbox';
+import { TeamCardComponent } from './comman/team-card/team-card.component';
+import { CompanyCardComponent } from './comman/company-card/company-card.component';
+import { RepositoryViewComponent } from './repository-view/repository-view.component';
+import { EmissionReportsComponent } from './emission-reports/emission-reports.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +38,10 @@ import { CheckBoxModule } from 'smart-webcomponents-angular/checkbox';
     CompanyReportDetailsComponent,
     CompanyDetailsComponent,
     AboutUsComponent,
+    TeamCardComponent,
+    CompanyCardComponent,
+    RepositoryViewComponent,
+    EmissionReportsComponent,
   ],
   imports: [
     BrowserModule,

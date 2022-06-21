@@ -12,11 +12,8 @@
                 <div class="col-md-8">
                     <div class="row">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-4 col-md-3" *ngFor="let item of teams">
-                                <div class="card cursor-pointer align-items-center justify-content-center"
-                                    [routerLink]="['/company/details/1243124']">
-                                    <img [src]="item?.image" alt="" width="130px">
-                                </div>
+                            <div class="col-xs-12 col-sm-4 col-md-3" *ngFor="let userTeam of teams">
+                                    <app-team-card [user]="userTeam"></app-team-card>
                             </div>
                         </div>
                     </div>
@@ -26,11 +23,8 @@
                 <div class="col-md-8">
                     <div class="row">
                         <div class="row">
-                        <div class="col-xs-12 col-sm-4 col-md-3" *ngFor="let item of teams">
-                            <div class="card cursor-pointer align-items-center justify-content-center"
-                                [routerLink]="['/company/details/1243124']">
-                                <img [src]="item?.image" alt="" width="130px">
-                            </div>
+                        <div class="col-xs-12 col-sm-4 col-md-3" *ngFor="let userTeam of teams">
+                            <app-team-card [user]="userTeam"></app-team-card>
                         </div>
                         </div>
                     </div>
@@ -46,11 +40,8 @@
                 <div class="col-md-8">
                     <div class="row">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-4 col-md-3" *ngFor="let item of teams">
-                                <div class="card cursor-pointer align-items-center justify-content-center"
-                                    [routerLink]="['/company/details/1243124']">
-                                    <img [src]="item?.image" alt="" width="130px">
-                                </div>
+                            <div class="col-xs-12 col-sm-4 col-md-3" *ngFor="let userTeam of teams">
+                                <app-team-card [user]="userTeam"></app-team-card>
                             </div>
                         </div>
                     </div>
@@ -60,11 +51,8 @@
                 <div class="col-md-8">
                     <div class="row">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-4 col-md-3" *ngFor="let item of teams">
-                                <div class="card cursor-pointer align-items-center justify-content-center"
-                                    [routerLink]="['/company/details/1243124']">
-                                    <img [src]="item?.image" alt="" width="130px">
-                                </div>
+                            <div class="col-xs-12 col-sm-4 col-md-3" *ngFor="let userTeam of teams">
+                                <app-team-card [user]="userTeam"></app-team-card>
                             </div>
                         </div>
                     </div>
