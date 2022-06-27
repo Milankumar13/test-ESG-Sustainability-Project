@@ -123,3 +123,21 @@ button:not(:disabled) {
     border: 1px solid #a5a5a524;
     padding: 0.1rem 1rem;
 }
+
+.folder-container-dwn{
+    float: right;
+    text-align: right !important;
+    position: absolute;
+    right: 11px;
+    display: block !important;
+    font-size: x-small;
+    padding: 9px 9px !important;
+    color: gray;
+    background: none;
+    border: none;
+}
+
+.social-links i,
+a {
+    color: #847781;
+}

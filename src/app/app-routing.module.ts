@@ -5,6 +5,7 @@ import { AboutUsComponent } from './layouts/about-us/about-us.component';
 import { CompaniesListComponent } from './layouts/companies-list/companies-list.component';
 import { CompanyDetailsComponent } from './layouts/companies-list/company-details/company-details.component';
 import { CompanyReportDetailsComponent } from './layouts/company-report-details/company-report-details.component';
+import { DashboardComponent } from './layouts/dashboard/dashboard.component';
 import { HomeComponent } from './layouts/home/home.component';
 import { LayoutsComponent } from './layouts/layouts.component';
 import { RepositoryViewComponent } from './repository-view/repository-view.component';
@@ -38,6 +39,10 @@ const routes: Routes = [
       {
         path: 'company/report/details/:comId',
         component: CompanyReportDetailsComponent
+      },
+      {
+        path: 'dashboard',
+        component: DashboardComponent
       },
       {
         path: 'repository/view',

@@ -22,6 +22,7 @@ import { TeamCardComponent } from './comman/team-card/team-card.component';
 import { CompanyCardComponent } from './comman/company-card/company-card.component';
 import { RepositoryViewComponent } from './repository-view/repository-view.component';
 import { EmissionReportsComponent } from './emission-reports/emission-reports.component';
+import { DashboardComponent } from './layouts/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { EmissionReportsComponent } from './emission-reports/emission-reports.co
     CompanyCardComponent,
     RepositoryViewComponent,
     EmissionReportsComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
