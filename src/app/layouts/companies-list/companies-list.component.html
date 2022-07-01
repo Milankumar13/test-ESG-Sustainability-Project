@@ -8,8 +8,8 @@
             </div>
             <!-- Rigth-Side -->
             <div class="col-md-4 col-sm-12 right search-box input-group">
-                <input type="text" class="form-control" placeholder="Search company name.." aria-label="Search company name.."
-                    aria-describedby="button-addon2">
+                <input #search  type="text" class="form-control" placeholder="Search company name.." aria-label="Search company name.."
+                    aria-describedby="button-addon2" (keyup)="searchCompany($event)">
                 <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa fa-search"></i></button>
             </div>
         </div>
@@ -28,8 +28,10 @@
                     <div class="col-xs-12 col-sm-4 col-md-2" *ngFor="let cmp of companies">
                         <app-company-card [company]="cmp"></app-company-card>
                     </div>
-                    <div class="col-md-12 text-center">
-                        <button type="button" class="btn btn-light">View more</button>
+                    <div class="col-md-12 text-center" *ngIf="companies.length == 0" style="padding: 5rem 0rem;">
+                        <!-- <button type="button" class="btn btn-light">View more</button> -->
+                        <img class="oops-img" src="/assets/placeholder/office-building.png" alt="">
+                        <h5 class="oops-text">Oops! Company is not available.</h5>
                     </div>
                 </div>
             </div>

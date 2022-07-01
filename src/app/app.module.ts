@@ -23,6 +23,7 @@ import { CompanyCardComponent } from './comman/company-card/company-card.compone
 import { RepositoryViewComponent } from './repository-view/repository-view.component';
 import { EmissionReportsComponent } from './emission-reports/emission-reports.component';
 import { DashboardComponent } from './layouts/dashboard/dashboard.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { DashboardComponent } from './layouts/dashboard/dashboard.component';
     AppRoutingModule,
     ChartModule,
     ButtonModule,
-    CheckBoxModule
+    CheckBoxModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

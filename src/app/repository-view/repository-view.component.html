@@ -7,12 +7,12 @@
                 <h1 class="heading"><span>R</span>epository</h1>
             </div>
             <!-- Rigth-Side -->
-            <div class="col-md-4 col-sm-12 right search-box input-group">
+            <!-- <div class="col-md-4 col-sm-12 right search-box input-group">
                 <input type="text" class="form-control" placeholder="Search company name.."
                     aria-label="Search company name.." aria-describedby="button-addon2">
                 <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
                         class="fa fa-search"></i></button>
-            </div>
+            </div> -->
         </div>
         <hr>
     </div>
@@ -43,137 +43,15 @@
                 <li class="breadcrumb-item active"><i class="far fa-folder"></i>&nbsp; Folders</li>
             </ol>
             <div id="main-folders" class="d-flex align-items-stretch flex-wrap flex-column">
-                <div class="d-inline-flex">
+                <div class="d-inline-flex" *ngFor="let company of companies">
                     <button class="folder-container">
                         <div class="folder-icon">
                             <i class="fa fa-folder folder-icon-color"></i>
                         </div>
-                        <div class="folder-name">Company-name</div>
-                    </button>
-                      <button class="folder-container-dwn">
-                        <!-- <div class="folder-icon">
-                            <i class="fa fa-download download-icon-color"></i>
-                        </div> -->
+                        <div class="folder-name">{{company?.firm}}</div>
                     </button>
                 </div>
-                <div class="d-inline-flex">
-                    <button class="folder-container">
-                        <div class="folder-icon">
-                            <i class="fa fa-folder folder-icon-color"></i>
-                        </div>
-                        <div class="folder-name">Company-name</div>
-                    </button>
-                      <button class="folder-container-dwn">
-                        <!-- <div class="folder-icon">
-                            <i class="fa fa-download download-icon-color"></i>
-                        </div> -->
-                    </button>
-                </div>
-                <div class="d-inline-flex">
-                    <button class="folder-container">
-                        <div class="folder-icon">
-                            <i class="fa fa-folder folder-icon-color"></i>
-                        </div>
-                        <div class="folder-name">Company-name</div>
-                    </button>
-                      <button class="folder-container-dwn">
-                        <!-- <div class="folder-icon">
-                            <i class="fa fa-download download-icon-color"></i>
-                        </div> -->
-                    </button>
-                </div>
-                <div class="d-inline-flex">
-                    <button class="folder-container">
-                        <div class="folder-icon">
-                            <i class="fa fa-folder folder-icon-color"></i>
-                        </div>
-                        <div class="folder-name">Folder-name-large</div>
-                    </button>
-                    <button class="folder-container-dwn">
-                        <!-- <div class="folder-icon">
-                            <i class="fa fa-download download-icon-color"></i>
-                        </div> -->
-                    </button>
-                </div>
-                <div class="d-inline-flex">
-                    <button class="folder-container">
-                        <div class="folder-icon">
-                            <i class="fa fa-folder folder-icon-color"></i>
-                        </div>
-                        <div class="folder-name">Folder-name-extra-large
-                        </div>
-                    </button>
-                    <button class="folder-container-dwn">
-                        <!-- <div class="folder-icon">
-                            <i class="fa fa-download download-icon-color"></i>
-                        </div> -->
-                    </button>
-                </div>
-                <div class="d-inline-flex">
-                    <button class="folder-container">
-                        <div class="folder-icon">
-                            <i class="fa fa-folder folder-icon-color"></i>
-                        </div>
-                        <div class="folder-name">Company-name</div>
-                    </button>
-                      <button class="folder-container-dwn">
-                        <!-- <div class="folder-icon">
-                            <i class="fa fa-download download-icon-color"></i>
-                        </div> -->
-                    </button>
-                </div>
-                <div class="d-inline-flex">
-                    <button class="folder-container">
-                        <div class="folder-icon">
-                            <i class="fa fa-folder folder-icon-color"></i>
-                        </div>
-                        <div class="folder-name">Company-name</div>
-                    </button>
-                      <button class="folder-container-dwn">
-                        <!-- <div class="folder-icon">
-                            <i class="fa fa-download download-icon-color"></i>
-                        </div> -->
-                    </button>
-                </div>
-                <div class="d-inline-flex">
-                    <button class="folder-container">
-                        <div class="folder-icon">
-                            <i class="fa fa-folder folder-icon-color"></i>
-                        </div>
-                        <div class="folder-name">Company-name</div>
-                    </button>
-                      <button class="folder-container-dwn">
-                        <!-- <div class="folder-icon">
-                            <i class="fa fa-download download-icon-color"></i>
-                        </div> -->
-                    </button>
-                </div>
-                <div class="d-inline-flex">
-                    <button class="folder-container">
-                        <div class="folder-icon">
-                            <i class="fa fa-folder folder-icon-color"></i>
-                        </div>
-                        <div class="folder-name">Company-name</div>
-                    </button>
-                      <button class="folder-container-dwn">
-                        <!-- <div class="folder-icon">
-                            <i class="fa fa-download download-icon-color"></i>
-                        </div> -->
-                    </button>
-                </div>
-                <div class="d-inline-flex">
-                    <button class="folder-container">
-                        <div class="folder-icon">
-                            <i class="fa fa-folder folder-icon-color"></i>
-                        </div>
-                        <div class="folder-name">Company-name</div>
-                    </button>
-                      <button class="folder-container-dwn">
-                        <!-- <div class="folder-icon">
-                            <i class="fa fa-download download-icon-color"></i>
-                        </div> -->
-                    </button>
-                </div>
+             
             </div>
         </div>
         <!-- End Folders Container -->

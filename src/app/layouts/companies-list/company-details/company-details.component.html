@@ -3,8 +3,7 @@
     <div class="container">
         <div class="row">
             <!-- Left-Side -->
-            <div class="col-md-2 col-sm-12  left">
-                <img src="/assets/companies/apple.png" alt="" width="100%">
+            <div class="col-md-2 col-sm-12  left bg-profile" style="background-image: url({{company?.reports_page_link}}) ;">
             </div>
 
             <!-- Rigth-Side -->
@@ -12,19 +11,10 @@
                 <div style='margin-top: 60px;'>
                     <h4 style='font-size: 20px; color: #E95205;'> About Company </h4>
 
-                    <p>
-                        Apple Inc. is an American multinational technology company that specializes in consumer
-                        electronics, software and online services headquartered in Cupertino, California, United
-                        States.Apple was founded as Apple Computer Company on April 1, 1976, by Steve Jobs, Steve
-                        Wozniak and Ronald Wayne to develop and sell Wozniak's Apple I personal computer. Apple is the
-                        largest information technology company by revenue (totaling US$365.8 billion in 2021) and as of
-                        May 2022, it is the world's second most valuable company, the fourth-largest personal computer
-                        vendor by unit sales and second-largest mobile phone manufacturer.
-                    </p>
-                    <a> <button type="button" class="btn first px-5 py-2" id="reports">PDF
-                            Reports</button></a>
-                    <a [routerLink]="['/company/report/details/sajkd&%&78hajsdk234234']" routerLinkActive="router-link-active" > <button type="button" class="btn first px-5 py-2 mx-3">View
-                            Analysis</button></a>
+                    <p [innerHTML]="company?.description"></p>
+                    <a routerLink="/repository/view"> <button type="button" class="btn first px-5 py-2" id="reports">PDF Reports</button></a>
+                    <!-- <a [routerLink]="['/company/report/details/sajkd&%&78hajsdk234234']" routerLinkActive="router-link-active" > <button type="button" class="btn first px-5 py-2 mx-3">View
+                            Analysis</button></a> -->
                 </div>
             </div>
         </div>

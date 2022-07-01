@@ -11,32 +11,32 @@ export class CompanyComponent implements OnInit {
     {
       id: 12,
       image: '/assets/companies/apple.png',
-      name: 'apple'
+      firm: 'apple'
     },
     {
       id: 12,
       image: '/assets/companies/google.png',
-      name: 'google'
+      firm: 'google'
     },
     {
       id: 12,
       image: '/assets/companies/puma.png',
-      name: 'puma'
+      firm: 'puma'
     },
     {
       id: 12,
       image: '/assets/companies/sap.png',
-      name: 'sap'
+      firm: 'sap'
     },
     {
       id: 12,
       image: '/assets/companies/starbucks.png',
-      name: 'starbucks'
+      firm: 'starbucks'
     },
     {
       id: 12,
       image: '/assets/companies/sap.png',
-      name: 'sap'
+      firm: 'sap'
     },
   ]
   constructor() { }

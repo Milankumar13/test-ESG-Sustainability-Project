@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from 'src/app/data.service';
 
 @Component({
   selector: 'app-companies-list',
@@ -7,102 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompaniesListComponent implements OnInit {
 
-  companies: Array<any> = [
-    {
-      id: 12,
-      image: '/assets/companies/apple.png',
-      name: 'apple'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/google.png',
-      name: 'google'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/puma.png',
-      name: 'puma'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/sap.png',
-      name: 'sap'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/starbucks.png',
-      name: 'starbucks'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/sap.png',
-      name: 'sap'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/apple.png',
-      name: 'apple'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/google.png',
-      name: 'google'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/puma.png',
-      name: 'puma'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/sap.png',
-      name: 'sap'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/puma.png',
-      name: 'puma'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/sap.png',
-      name: 'sap'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/starbucks.png',
-      name: 'starbucks'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/sap.png',
-      name: 'sap'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/apple.png',
-      name: 'apple'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/google.png',
-      name: 'google'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/puma.png',
-      name: 'puma'
-    },
-    {
-      id: 12,
-      image: '/assets/companies/sap.png',
-      name: 'sap'
-    }   
-  ]
+  companies: Array<any> = [];
+  allCompanies: Array<any> = [];
 
-  constructor() { }
+  constructor(private dataService : DataService) { }
 
   ngOnInit(): void {
+    this.allCompanies = this.dataService._getCompaniesList();
+    this.companies = this.allCompanies;
   }
 
+  searchCompany(event : any){
+    this.companies = this.allCompanies ? this.allCompanies.filter(item => item.firm.search(new RegExp(event.target.value, 'i')) > -1) : [];
+  }
 }

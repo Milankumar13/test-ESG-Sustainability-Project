@@ -120,7 +120,7 @@ button:not(:disabled) {
 
 .d-inline-flex {
     display: inline-flex !important;
-    border: 1px solid #a5a5a524;
+    border: 0.51px solid #a5a5a524;
     padding: 0.1rem 1rem;
 }
 

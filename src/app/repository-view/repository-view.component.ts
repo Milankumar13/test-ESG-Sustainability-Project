@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../data.service';
 declare var $: any;
 
 @Component({
@@ -8,10 +9,18 @@ declare var $: any;
 })
 export class RepositoryViewComponent implements OnInit {
 
-  constructor() { }
+  companies : any = [];
+
+  constructor(
+    private dataService : DataService
+  ) {
+   }
 
   ngOnInit(): void {
-    this.directive_call();
+    this.companies = this.dataService._getCompaniesList();
+    setTimeout(() => {
+      this.directive_call();
+    }, 500);
   }
 
   directive_call() {

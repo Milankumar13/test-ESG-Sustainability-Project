@@ -1,6 +1,6 @@
-<div class="card cursor-pointer align-items-center justify-content-center" [routerLink]="['/company/details/',company?.id]">
-    <img [src]="company?.image" alt="" width="130px">
+<div class="card cursor-pointer align-items-center justify-content-center" [routerLink]="['/company/details/',company?.stock_isin]">
+    <img [src]="company?.reports_page_link" alt="" width="130px">
     <div class="card-header-name text-center">
-        <span>{{company?.name}}</span>
+        <span>{{company?.firm}}</span>
     </div>
 </div>
