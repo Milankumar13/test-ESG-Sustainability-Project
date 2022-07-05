@@ -25,7 +25,7 @@ export class TeamComponent implements OnInit {
     },
     {
       name: "Md Mahmud Hasan",
-      image: "/assets/img/user/1_3.jpeg",
+      image: "/assets/img/user/5.jpeg",
       social_link: "https://www.linkedin.com/in/mahmud-dev/"
     }
   ]
@@ -84,17 +84,17 @@ export class TeamComponent implements OnInit {
     },
     {
       name: "Parth Saliya",
-      image: "/assets/img/user/4_1.jpg",
+      image: "/assets/img/user/4_2.jpeg",
       social_link: "https://www.linkedin.com/in/mahmud-dev/"
     },
     {
       name: "Milan Sangani",
-      image: "/assets/img/user/4_1.jpg",
+      image: "/assets/img/user/5.jpeg",
       social_link: "https://www.linkedin.com/in/mahmud-dev/"
     },
     {
       name: "Hardik Dudhat",
-      image: "/assets/img/user/4_1.jpg",
+      image: "/assets/img/user/4_4.JPG",
       social_link: "https://www.linkedin.com/in/mahmud-dev/"
     }
   ]
