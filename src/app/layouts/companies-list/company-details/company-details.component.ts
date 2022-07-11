@@ -18,7 +18,6 @@ export class CompanyDetailsComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.routeSubscription = this.route.params.subscribe((response)=>{
       this.company = this.dataService.getCompany(response['id']);
-      console.log(this.company)
     })
   }
 

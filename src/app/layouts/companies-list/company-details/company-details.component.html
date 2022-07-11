@@ -12,7 +12,7 @@
                     <h4 style='font-size: 20px; color: #E95205;'> About Company </h4>
 
                     <p [innerHTML]="company?.description"></p>
-                    <a routerLink="/repository/view"> <button type="button" class="btn first px-5 py-2" id="reports">PDF Reports</button></a>
+                    <a [href]="company?.web_link" target="_blank"> <button type="button" class="btn first px-5 py-2" id="reports">View more</button></a>
                     <!-- <a [routerLink]="['/company/report/details/sajkd&%&78hajsdk234234']" routerLinkActive="router-link-active" > <button type="button" class="btn first px-5 py-2 mx-3">View
                             Analysis</button></a> -->
                 </div>
@@ -30,56 +30,21 @@
                     <hr>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-                <div class="card align-items-center justify-content-center">
-                    <a
-                        href="https://assets.new.siemens.com/siemens/assets/api/uuid:4806da09-01c7-40b1-af91-99af4b726653/sustainability2021-en.pdf"><img
-                            src="/assets/img/pdf.png" onclick="confirmAction()" alt="" width="130px"></a>
+            <ng-container *ngIf="company?.dow_reports_link.length != 0">
+                <div class="col-xs-12 col-sm-4 col-md-2" *ngFor="let item of company?.dow_reports_link">
+                    <div class="card align-items-center justify-content-center">
+                        <a [href]="item" title="Download" download rel="noopener noreferrer" target="_blank"><img src="/assets/img/pdf.png" alt="" width="130px"></a>
+                    </div>
+                    <div style='margin-top:10px;'>
+                        <p style='text-align: center;'>2022</p>
+                    </div>
                 </div>
-                <div style='margin-top:10px;'>
-                    <p style='text-align: center;'>2022</p>
+            </ng-container>
+            <ng-container *ngIf="company?.dow_reports_link.length == 0">
+                <div class="col-md-12 test-center">
+                    <p>Oops! There is no available company reports</p>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-                <div class="card align-items-center justify-content-center">
-                    <img src="/assets/img/pdf.png" alt="" width="130px">
-                </div>
-                <div style='margin-top:10px;'>
-                    <p style='text-align: center;'>2021</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-                <div class="card align-items-center justify-content-center">
-                    <img src="/assets/img/pdf.png" alt="" width="130px">
-                </div>
-                <div style='margin-top:10px;'>
-                    <p style='text-align: center;'>2020</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-                <div class="card align-items-center justify-content-center">
-                    <img src="/assets/img/pdf.png" alt="" width="130px">
-                </div>
-                <div style='margin-top:10px;'>
-                    <p style='text-align: center;'>2019</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-                <div class="card align-items-center justify-content-center">
-                    <img src="/assets/img/pdf.png" alt="" width="130px">
-                </div>
-                <div style='margin-top:10px;'>
-                    <p style='text-align: center;'>2018</p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-2">
-                <div class="card align-items-center justify-content-center">
-                    <img src="/assets/img/pdf.png" alt="" width="130px">
-                </div>
-                <div style='margin-top:10px;'>
-                    <p style='text-align: center;'>2017</p>
-                </div>
-            </div>
+            </ng-container>
         </div>
     </div>
 </div>

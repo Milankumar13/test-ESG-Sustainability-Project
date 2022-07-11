@@ -7,7 +7,9 @@ interface Company {
   sector: String,
   group: String,
   reports_page_link: String,
-  description: String
+  description: String,
+  web_link: String,
+  dow_reports_link: Array<any>,
 }
 
 @Injectable({

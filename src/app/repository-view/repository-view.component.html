@@ -4,7 +4,7 @@
         <div class="row">
             <!-- Left-Side -->
             <div class="col-md-8 col-sm-12  left">
-                <h1 class="heading"><span>R</span>epository</h1>
+                <h1 class="heading"> <span>P</span>DF <span>R</span>epository</h1>
             </div>
             <!-- Rigth-Side -->
             <!-- <div class="col-md-4 col-sm-12 right search-box input-group">
@@ -48,7 +48,7 @@
                         <div class="folder-icon">
                             <i class="fa fa-folder folder-icon-color"></i>
                         </div>
-                        <div class="folder-name">{{company?.firm}}</div>
+                        <div class="folder-name" (click)="selectedFirm(company)">{{company?.firm}}</div>
                     </button>
                 </div>
              
@@ -60,7 +60,7 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a id="backToFolders"><i class="far fa-folder"></i>&nbsp;
                         Folders</a></li>
-                <li class="breadcrumb-item active">Company_name_report</li>
+                <li class="breadcrumb-item active">{{ selectedCompany?.firm }}</li>
             </ol>
             <div id="main-files" class="d-flex align-items-stretch flex-wrap">
                 <div class="d-inline-flex">

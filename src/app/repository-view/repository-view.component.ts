@@ -10,6 +10,7 @@ declare var $: any;
 export class RepositoryViewComponent implements OnInit {
 
   companies : any = [];
+  selectedCompany : any = {};
 
   constructor(
     private dataService : DataService
@@ -21,6 +22,11 @@ export class RepositoryViewComponent implements OnInit {
     setTimeout(() => {
       this.directive_call();
     }, 500);
+  }
+
+  selectedFirm(company : any){
+    console.log(company)
+    this.selectedCompany = company;
   }
 
   directive_call() {

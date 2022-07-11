@@ -15,19 +15,14 @@ export class TeamComponent implements OnInit {
     },
     {
       name: "Jyotsana Shankar",
-      image: "/assets/img/user/1_2.jpeg",
-      social_link: "https://www.linkedin.com/in/mahmud-dev/"
+      image: "/assets/img/user/1_2.jpg",
+      social_link: "https://www.linkedin.com/in/jyotsana-shankar/"
     },
     {
       name: "Minhajul Islam Rahid",
       image: "/assets/img/user/1_4.jpeg",
       social_link: "https://www.linkedin.com/in/rahid/"
     },
-    {
-      name: "Md Mahmud Hasan",
-      image: "/assets/img/user/5.jpeg",
-      social_link: "https://www.linkedin.com/in/mahmud-dev/"
-    }
   ]
 
   teams2: any = [
@@ -57,22 +52,22 @@ export class TeamComponent implements OnInit {
     {
       name: "Shoaib Iftikhar",
       image: "/assets/img/user/3_1.jpg",
-      social_link: "https://www.linkedin.com/in/mahmud-dev/"
+      social_link: "https://www.linkedin.com/in/shoaib-iftikhar-60a3a5169/"
     },
     {
       name: "Quazi Ameer Hammad",
       image: "/assets/img/user/3_2.jpg",
-      social_link: "https://www.linkedin.com/in/mahmud-dev/"
+      social_link: "http://www.linkedin.com/in/qazi-ameer-hammad"
     },
     {
       name: "Nikhitha Yerrathota",
       image: "/assets/img/user/3_3.jpeg",
-      social_link: "https://www.linkedin.com/in/mahmud-dev/"
+      social_link: "https://www.linkedin.com/in/nikhitha-yerrathota-7929061a1"
     },
     {
       name: "MD R M Yusuf Naeem",
       image: "/assets/img/user/3_4.jpg",
-      social_link: "https://www.linkedin.com/in/mahmud-dev/"
+      social_link: "https://www.linkedin.com/in/mahbubnayeem007/"
     }
   ]
 
@@ -84,21 +79,20 @@ export class TeamComponent implements OnInit {
     },
     {
       name: "Parth Saliya",
-      image: "/assets/img/user/4_2.jpeg",
-      social_link: "https://www.linkedin.com/in/mahmud-dev/"
+      image: "/assets/img/user/4_2.jpg",
+      social_link: "https://www.linkedin.com/in/parth-saliya-09b814213/"
     },
     {
       name: "Milan Sangani",
-      image: "/assets/img/user/5.jpeg",
-      social_link: "https://www.linkedin.com/in/mahmud-dev/"
+      image: "/assets/img/user/4_3.jpg",
+      social_link: "http://www.linkedin.com/in/milankumar-sangani-594162213"
     },
     {
       name: "Hardik Dudhat",
       image: "/assets/img/user/4_4.JPG",
-      social_link: "https://www.linkedin.com/in/mahmud-dev/"
+      social_link: "https://www.linkedin.com/in/hardikkumar-vrajlal-dudhat-a345b215a"
     }
   ]
-
 
   constructor() { }
 
