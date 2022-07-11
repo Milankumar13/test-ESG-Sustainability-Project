@@ -141,3 +141,20 @@ button:not(:disabled) {
 a {
     color: #847781;
 }
+
+.text-error{
+    text-align: center !important;
+    width: auto !important;
+    padding-top: 1rem !important;
+    padding-top: 1rem !important;
+    font-weight: bolder !important;
+    color: #c3c3c3 !important;
+    text-align: center !important;
+    font-size: larger !important;
+    min-height: 4rem !important;
+    width: 100% !important;
+    display: block !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    margin-bottom: 1.5rem !important;
+}

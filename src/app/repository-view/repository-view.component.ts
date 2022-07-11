@@ -10,7 +10,16 @@ declare var $: any;
 export class RepositoryViewComponent implements OnInit {
 
   companies : any = [];
-  selectedCompany : any = {};
+  selectedCompany : any = {
+    firm: String,
+    stock_isin: String,
+    sector: String,
+    group: String,
+    reports_page_link: String,
+    description: String,
+    web_link: String,
+    dow_reports_link: [],
+  };
 
   constructor(
     private dataService : DataService
@@ -27,6 +36,10 @@ export class RepositoryViewComponent implements OnInit {
   selectedFirm(company : any){
     console.log(company)
     this.selectedCompany = company;
+  }
+  
+  _getReportsName(company: string) {
+    return company.substring(company.lastIndexOf('/') + 1);
   }
 
   directive_call() {

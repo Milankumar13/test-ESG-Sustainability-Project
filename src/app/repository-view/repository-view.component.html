@@ -44,14 +44,14 @@
             </ol>
             <div id="main-folders" class="d-flex align-items-stretch flex-wrap flex-column">
                 <div class="d-inline-flex" *ngFor="let company of companies">
-                    <button class="folder-container">
+                    <button class="folder-container" (click)="selectedFirm(company)">
                         <div class="folder-icon">
                             <i class="fa fa-folder folder-icon-color"></i>
                         </div>
-                        <div class="folder-name" (click)="selectedFirm(company)">{{company?.firm}}</div>
+                        <div class="folder-name">{{company?.firm}}</div>
                     </button>
                 </div>
-             
+
             </div>
         </div>
         <!-- End Folders Container -->
@@ -62,44 +62,30 @@
                         Folders</a></li>
                 <li class="breadcrumb-item active">{{ selectedCompany?.firm }}</li>
             </ol>
-            <div id="main-files" class="d-flex align-items-stretch flex-wrap">
-                <div class="d-inline-flex">
-                    <button class="folder-container">
-                        <div class="folder-icon">
-                            <i class="fa fa-file file-icon-color"></i>
-                        </div>
+            <div id="main-files" class="d-flex align-items-stretch flex-wrap flex-column">
+                <ng-container  *ngIf="selectedCompany['dow_reports_link'].length != 0">
+                    <div class="d-inline-flex" *ngFor="let item of selectedCompany['dow_reports_link']">
+                        <a title="Download" [href]="item" download rel="noopener noreferrer" target="_blank">
+                            <button class="folder-container">
+                                <div class="folder-icon">
+                                    <i class="fa fa-file file-icon-color"></i>
+                                </div>
+                                <div class="folder-name">
+                                    {{_getReportsName(item)}}
+                                </div>
+                            </button>
+                        </a>
+                    </div>
+                </ng-container>
+
+                <div class="d-inline-flex w-100"  *ngIf="selectedCompany['dow_reports_link'].length == 0">
+                    <button class="folder-container text-error">
                         <div class="folder-name">
-                            <a title="Download" href="/assets/reports/November-2014-BUYING-OR-SELLING-YOUR-BUSINESS.pdf" download rel="noopener noreferrer" target="_blank">
-                                SAP.pdf
-                            </a>
+                            Oops! no pdf reports are available...
                         </div>
                     </button>
                 </div>
-                <div class="d-inline-flex">
-                    <button class="folder-container">
-                        <div class="folder-icon">
-                            <i class="fa fa-file file-icon-color"></i>
-                        </div>
-                        <div class="folder-name">
-                            <a title="Download" href="/assets/reports/idc-wp-247829.pdf" download rel="noopener noreferrer"
-                                target="_blank">
-                                idc-wp-247829.pdf
-                            </a>
-                        </div>
-                    </button>
-                </div>
-                <div class="d-inline-flex">
-                    <button class="folder-container">
-                        <div class="folder-icon">
-                            <i class="fa fa-file file-icon-color"></i>
-                        </div>
-                        <div class="folder-name">
-                            <a title="Download" href="/assets/reports/marts_current.pdf" download rel="noopener noreferrer" target="_blank">
-                                marts_current.pdf
-                            </a>
-                        </div>
-                    </button>
-                </div>
+
             </div>
         </div>
         <!-- End Files Container -->

@@ -24,4 +24,8 @@ export class CompanyDetailsComponent implements OnInit, OnDestroy {
   ngOnDestroy(): void{
     this.routeSubscription.unsubscribe();
   }
+
+  _getreportsName(company : string){
+    return company.substring(company.lastIndexOf('/') + 1);
+  }
 }

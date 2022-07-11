@@ -18,3 +18,11 @@
         background-position: right center;
         background-color: #f7f7f7;
     }
+
+    .text-error{
+        font-weight: bolder;
+        color: #c3c3c3;
+        text-align: center;
+        font-size: larger;
+        min-height: 4rem;
+    }

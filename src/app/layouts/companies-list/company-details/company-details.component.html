@@ -36,13 +36,13 @@
                         <a [href]="item" title="Download" download rel="noopener noreferrer" target="_blank"><img src="/assets/img/pdf.png" alt="" width="130px"></a>
                     </div>
                     <div style='margin-top:10px;'>
-                        <p style='text-align: center;'>2022</p>
+                        <p style='text-align: center;    font-size: smaller;'>{{ _getreportsName(item) }}</p>
                     </div>
                 </div>
             </ng-container>
             <ng-container *ngIf="company?.dow_reports_link.length == 0">
                 <div class="col-md-12 test-center">
-                    <p>Oops! There is no available company reports</p>
+                    <p class="text-error">Oops! no pdf reports are available...</p>
                 </div>
             </ng-container>
         </div>
