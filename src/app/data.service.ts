@@ -26,7 +26,7 @@ export class DataService {
   }
 
 
-  apiUrl: string = (window.location.hostname == 'localhost' ? 'http://localhost:8080/api/v1' : 'http://localhost:8080/api/v1');
+  apiUrl: string = (window.location.hostname == 'localhost' ? 'http://localhost:8080/api/v1' : 'http://ec2-3-71-255-155.eu-central-1.compute.amazonaws.com/api/v1');
 
   _response(response: any) {
 
