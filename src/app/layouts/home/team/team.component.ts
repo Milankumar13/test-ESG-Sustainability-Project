@@ -15,7 +15,7 @@ export class TeamComponent implements OnInit {
     },
     {
       name: "Jyotsana Shankar",
-      image: "/assets/img/user/1_2.jpg",
+      image: "/assets/img/user/1_2.jpeg",
       social_link: "https://www.linkedin.com/in/jyotsana-shankar/"
     },
     {
@@ -79,12 +79,12 @@ export class TeamComponent implements OnInit {
     },
     {
       name: "Parth Saliya",
-      image: "/assets/img/user/4_2.jpg",
+      image: "/assets/img/user/4_2.jpeg",
       social_link: "https://www.linkedin.com/in/parth-saliya-09b814213/"
     },
     {
       name: "Milan Sangani",
-      image: "/assets/img/user/4_3.jpg",
+      image: "/assets/img/user/4_3.jpeg",
       social_link: "http://www.linkedin.com/in/milankumar-sangani-594162213"
     },
     {
