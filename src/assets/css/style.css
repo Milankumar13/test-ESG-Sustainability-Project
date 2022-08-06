@@ -322,3 +322,7 @@ a {
     transition: 0.5s ease;
     border-bottom: 3px solid;
 }
+
+.text-error{
+    color: #dc3545 !important;
+}

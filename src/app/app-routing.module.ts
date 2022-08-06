@@ -5,6 +5,7 @@ import { AboutUsComponent } from './layouts/about-us/about-us.component';
 import { CompaniesListComponent } from './layouts/companies-list/companies-list.component';
 import { CompanyDetailsComponent } from './layouts/companies-list/company-details/company-details.component';
 import { CompanyReportDetailsComponent } from './layouts/company-report-details/company-report-details.component';
+import { ContactUsComponent } from './layouts/contact-us/contact-us.component';
 import { DashboardComponent } from './layouts/dashboard/dashboard.component';
 import { HomeComponent } from './layouts/home/home.component';
 import { LayoutsComponent } from './layouts/layouts.component';
@@ -27,6 +28,10 @@ const routes: Routes = [
       {
         path: 'about-us',
         component: AboutUsComponent
+      },
+      {
+        path: 'contact-us',
+        component: ContactUsComponent
       },
       {
         path: 'company/list',

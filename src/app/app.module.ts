@@ -24,6 +24,8 @@ import { RepositoryViewComponent } from './repository-view/repository-view.compo
 import { EmissionReportsComponent } from './emission-reports/emission-reports.component';
 import { DashboardComponent } from './layouts/dashboard/dashboard.component';
 import { FormsModule } from '@angular/forms';
+import { ContactUsComponent } from './layouts/contact-us/contact-us.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -45,6 +47,7 @@ import { FormsModule } from '@angular/forms';
     RepositoryViewComponent,
     EmissionReportsComponent,
     DashboardComponent,
+    ContactUsComponent,
   ],
   imports: [
     BrowserModule,
@@ -53,6 +56,7 @@ import { FormsModule } from '@angular/forms';
     ButtonModule,
     CheckBoxModule,
     FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
