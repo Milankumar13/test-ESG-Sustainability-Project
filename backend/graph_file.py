@@ -137,8 +137,8 @@ def make_graphs(selected_year, selected_firms):
         template='presentation',            #'ggplot2', 'seaborn', 'simple_white', 'plotly',
                                             #'plotly_white', 'plotly_dark', 'presentation',
                                             #'xgridoff', 'ygridoff', 'gridon', 'none'
-        width=1400,                          #figure width in pixels
-        height=1100,                         #figure height in pixels
+        width=1024,                          #figure width in pixels
+        height=600,                         #figure height in pixels
         hole=0.5,                           #represents the hole in middle of pie
         )
     
@@ -159,8 +159,8 @@ def make_graphs(selected_year, selected_firms):
         template='presentation',            #'ggplot2', 'seaborn', 'simple_white', 'plotly',
                                             #'plotly_white', 'plotly_dark', 'presentation',
                                             #'xgridoff', 'ygridoff', 'gridon', 'none'
-        width=1400,                          #figure width in pixels
-        height=1100,                         #figure height in pixels
+        width=1024,                          #figure width in pixels
+        height=600,                         #figure height in pixels
         hole=0.5,                           #represents the hole in middle of pie
         )
     
@@ -181,8 +181,8 @@ def make_graphs(selected_year, selected_firms):
         template='presentation',            #'ggplot2', 'seaborn', 'simple_white', 'plotly',
                                             #'plotly_white', 'plotly_dark', 'presentation',
                                             #'xgridoff', 'ygridoff', 'gridon', 'none'
-        width=1400,                          #figure width in pixels
-        height=1100,                         #figure height in pixels
+        width=1024,                          #figure width in pixels
+        height=600,                         #figure height in pixels
         hole=0.5,                           #represents the hole in middle of pie
         )
     
@@ -203,8 +203,8 @@ def make_graphs(selected_year, selected_firms):
         template='presentation',            #'ggplot2', 'seaborn', 'simple_white', 'plotly',
                                             #'plotly_white', 'plotly_dark', 'presentation',
                                             #'xgridoff', 'ygridoff', 'gridon', 'none'
-        width=1400,                          #figure width in pixels
-        height=1100,                         #figure height in pixels
+        width=1024,                          #figure width in pixels
+        height=600,                         #figure height in pixels
         hole=0.5,                           #represents the hole in middle of pie
         )
     
@@ -215,30 +215,29 @@ def make_graphs(selected_year, selected_firms):
     return [
         
          
-        html.Div([
+       html.Div([
             html.Div([dcc.Graph(figure=bar_chart)], className="ten columns"),
         ], className="row"),
-        
-        
-        html.H2("Female Percentage in Company", style={"textAlign":"center"}),
+
+        html.H2("Female Percentage in Company", style={"font-family": "auto"}),
         html.Hr(),
         html.Div([
             html.Div([dcc.Graph(figure=pie_chart1)], className="twelve columns"),
         ], className="row"),
         
-        html.H2("Female Management Percentage in Company", style={"textAlign":"center"}),
+        html.H2("Female Management Percentage in Company", style={"font-family": "auto"}),
         html.Hr(),
         html.Div([
             html.Div([dcc.Graph(figure=pie_chart2)], className="twelve columns"),
         ], className="row"),
         
-        html.H2("Employee Under 30 Years Age", style={"textAlign":"center"}),
+        html.H2("Employee Under 30 Years Age", style={"font-family": "auto"}),
         html.Hr(),
         html.Div([
             html.Div([dcc.Graph(figure=pie_chart3)], className="twelve columns"),
         ], className="row"),
         
-        html.H2("Employee Over 50 Years Age", style={"textAlign":"center"}),
+        html.H2("Employee Over 50 Years Age", style={"font-family": "auto"}),
         html.Hr(),
         html.Div([
             html.Div([dcc.Graph(figure=pie_chart4)], className="twelve columns"),
@@ -255,7 +254,7 @@ def make_graphs(selected_year, selected_firms):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(host='0.0.0.0',debug=False)
 
 
 # In[ ]:

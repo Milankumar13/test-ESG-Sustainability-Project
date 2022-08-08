@@ -25,6 +25,7 @@ import { DashboardComponent } from './layouts/dashboard/dashboard.component';
 import { FormsModule } from '@angular/forms';
 import { ContactUsComponent } from './layouts/contact-us/contact-us.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MeasuresStaticDataSectionComponent } from './layouts/home/measures-static-data-section/measures-static-data-section.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { HttpClientModule } from '@angular/common/http';
     EmissionReportsComponent,
     DashboardComponent,
     ContactUsComponent,
+    MeasuresStaticDataSectionComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TeamComponent implements OnInit {
 
+  ProjectCoordinator: any = [
+    {
+      name: "Gabriela Alves Werb",
+      image: "/assets/img/user/mam.jpeg",
+      social_link: "https://www.linkedin.com/in/gabrielaalveswerb/"
+    },
+  ]
+
   teams1: any = [
     {
       name: "Md Mahmud Hasan",
