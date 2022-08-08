@@ -23,7 +23,12 @@
                     <a [routerLink]="['/company/list']" routerLinkActive="active"  class="nav-link">Companies</a>
                 </li>
                 <li class="nav-item px-1 py-2 py-2">
-                    <a [routerLink]="['/dashboard']" routerLinkActive="active"  class="nav-link">Dashboard</a>
+                    <a [routerLink]="['/dashboard']" routerLinkActive="active"  class="nav-link">Dashboard&nbsp;&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul class="drop-menu">
+                            <li class="submenu-li" ><a href="#">Submenu</a></li>
+                            <li class="submenu-li" ><a href="#">Submenu</a></li>
+                            <li class="submenu-li" ><a href="#">Submenu</a></li>
+                        </ul>
                 </li>
                 <!-- <li class="nav-item px-1 py-2 py-2">
                     <a [routerLink]="['/emission/reports']" routerLinkActive="active" class="nav-link">Emission Reports</a>
@@ -44,6 +49,8 @@
                 </li> -->
             </ul>
         </div>
+
+
     </div>
 </nav>
 <!-- Navbar End -->
