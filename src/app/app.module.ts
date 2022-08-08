@@ -8,7 +8,6 @@ import { HeaderComponent } from './layouts/header/header.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { HomeComponent } from './layouts/home/home.component';
 import { SustainabilityReportComponent } from './layouts/home/sustainability-report/sustainability-report.component';
-import { MeasuresStaticDataSectionComponent } from './layouts/home/measures-static-data-section/measures-static-data-section.component';
 import { CompanyComponent } from './layouts/home/company/company.component';
 import { TeamComponent } from './layouts/home/team/team.component';
 import { CompaniesListComponent } from './layouts/companies-list/companies-list.component';
@@ -35,7 +34,6 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     HomeComponent,
     SustainabilityReportComponent,
-    MeasuresStaticDataSectionComponent,
     CompanyComponent,
     TeamComponent,
     CompaniesListComponent,
