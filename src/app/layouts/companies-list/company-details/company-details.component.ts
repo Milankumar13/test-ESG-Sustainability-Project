@@ -18,6 +18,7 @@ export class CompanyDetailsComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.routeSubscription = this.route.params.subscribe((response)=>{
       this.company = this.dataService.getCompany(response['id']);
+      console.log(this.company)
     })
   }
 
@@ -27,5 +28,10 @@ export class CompanyDetailsComponent implements OnInit, OnDestroy {
 
   _getreportsName(company : string){
     return company.substring(company.lastIndexOf('/') + 1);
+  }
+
+  getCloudName(imgUrl : string){
+    var name = imgUrl.substring(imgUrl.lastIndexOf('/') + 1)
+    return name.split('.')[0].split('-')[1];
   }
 }
