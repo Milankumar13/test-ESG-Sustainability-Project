@@ -7,6 +7,9 @@ import { CompanyDetailsComponent } from './layouts/companies-list/company-detail
 import { CompanyReportDetailsComponent } from './layouts/company-report-details/company-report-details.component';
 import { ContactUsComponent } from './layouts/contact-us/contact-us.component';
 import { DashboardComponent } from './layouts/dashboard/dashboard.component';
+import { EnvAnalysisComponent } from './layouts/env-analysis/env-analysis.component';
+import { SocialAnalysisComponent } from './layouts/social-analysis/social-analysis.component';
+import { TextualAnalysisComponent } from './layouts/textual-analysis/textual-analysis.component';
 import { HomeComponent } from './layouts/home/home.component';
 import { LayoutsComponent } from './layouts/layouts.component';
 import { RepositoryViewComponent } from './repository-view/repository-view.component';
@@ -48,6 +51,18 @@ const routes: Routes = [
       {
         path: 'dashboard',
         component: DashboardComponent
+      },
+      {
+        path: 'env_analysis',
+        component: EnvAnalysisComponent
+      },
+      {
+        path: 'social_analysis',
+        component: SocialAnalysisComponent
+      },
+      {
+        path: 'textual_analysis',
+        component: TextualAnalysisComponent
       },
       {
         path: 'repository/view',

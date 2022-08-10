@@ -26,6 +26,9 @@ import { FormsModule } from '@angular/forms';
 import { ContactUsComponent } from './layouts/contact-us/contact-us.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MeasuresStaticDataSectionComponent } from './layouts/home/measures-static-data-section/measures-static-data-section.component';
+import { EnvAnalysisComponent } from './layouts/env-analysis/env-analysis.component';
+import { SocialAnalysisComponent } from './layouts/social-analysis/social-analysis.component';
+import { TextualAnalysisComponent } from './layouts/textual-analysis/textual-analysis.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +50,10 @@ import { MeasuresStaticDataSectionComponent } from './layouts/home/measures-stat
     EmissionReportsComponent,
     DashboardComponent,
     ContactUsComponent,
-    MeasuresStaticDataSectionComponent
+    MeasuresStaticDataSectionComponent,
+    EnvAnalysisComponent,
+    SocialAnalysisComponent,
+    TextualAnalysisComponent
   ],
   imports: [
     BrowserModule,

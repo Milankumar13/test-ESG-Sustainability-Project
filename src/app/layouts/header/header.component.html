@@ -24,11 +24,12 @@
                     <a [routerLink]="['/company/list']" routerLinkActive="active"  class="nav-link">Companies</a>
                 </li>
                 <li class="nav-item px-1 py-2 py-2">
-                    <a [routerLink]="['/dashboard']" routerLinkActive="active"  class="nav-link">Dashboard&nbsp;&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <a routerLinkActive="active"  class="nav-link">Dashboard&nbsp;&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul class="drop-menu">
-                            <li class="submenu-li" ><a >Industry ESG Analysis</a></li>
-                            <li class="submenu-li" ><a >Firm ESG Analysis</a></li>
-                            <li class="submenu-li" ><a >Firm ESG Analysis</a></li>
+                            <li class="submenu-li" ><a [routerLink]="['/dashboard']">Industry Indicators Analysis</a></li>
+                            <li class="submenu-li" ><a [routerLink]="['/env_analysis']">Firm Environmental Analysis</a></li>
+                            <li class="submenu-li" ><a [routerLink]="['/social_analysis']">Firm Social Analysis</a></li>
+                            <li class="submenu-li" ><a [routerLink]="['/textual_analysis']">Firm Textual Analysis</a></li>
                         </ul>
                 </li>
                 <!-- <li class="nav-item px-1 py-2 py-2">
