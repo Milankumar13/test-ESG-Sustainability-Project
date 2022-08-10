@@ -33,7 +33,12 @@
             <ng-container *ngIf="company?.dow_reports_link.length != 0">
                 <div class="col-xs-12 col-sm-4 col-md-2" *ngFor="let item of company?.dow_reports_link">
                     <div class="card align-items-center justify-content-center">
-                        <a [href]="item" title="Download" download rel="noopener noreferrer" target="_blank"><img src="/assets/img/pdf.png" alt="" width="130px"></a>
+                        <a [href]="item" title="Download" download rel="noopener noreferrer" target="_blank">
+                            <ng-container *ngIf="company?.isXLS == false">
+                                <img src="/assets/img/pdf.png" alt="" width="130px"></ng-container>
+                            <ng-container *ngIf="company?.isXLS == true">
+                                <img src="/assets/img/xls.jpeg" alt="" width="130px"></ng-container>
+                        </a>
                     </div>
                     <div style='margin-top:10px;'>
                         <p style='text-align: center; font-size: smaller; width: 11rem; word-break: break-word;'>{{ _getreportsName(item) }}</p>

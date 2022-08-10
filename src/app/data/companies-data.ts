@@ -12,7 +12,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/Adidas-2020.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Airbus",
@@ -28,7 +29,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/Airbus-2020.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Aixtron",
@@ -41,7 +43,8 @@ export const companies = [
         "dow_reports_link": ["https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/3/SE-2021.pdf"],
         "wordcloud": [
             "/assets/companies/wordcloud/Aixtron-2021.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Allianz",
@@ -56,7 +59,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/Allianz-2020.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Aroundtown Sa",
@@ -69,7 +73,8 @@ export const companies = [
         "dow_reports_link": ["https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/5/2021.pdf"],
         "wordcloud": [
             "/assets/companies/wordcloud/Aroundtown-2021.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Aurubis (Ex Norddeutsche Affinerie)",
@@ -82,7 +87,8 @@ export const companies = [
         "dow_reports_link": ["https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/6/aurubis-2018.pdf"],
         "wordcloud": [
             "/assets/companies/wordcloud/Aurubis-2018.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "BASF",
@@ -98,7 +104,8 @@ export const companies = [
         "wordcloud": [
             "/assets/companies/wordcloud/BASF-2020.png",
             "/assets/companies/wordcloud/BASF-2021.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Bayer",
@@ -113,7 +120,8 @@ export const companies = [
 
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Bechtle",
@@ -126,7 +134,8 @@ export const companies = [
         "dow_reports_link": ["https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/7/Bechtle-2020.pdf"],
         "wordcloud": [
             "/assets/companies/wordcloud/Bechtle-2020.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Befesa",
@@ -138,7 +147,8 @@ export const companies = [
         "web_link": "",
         "dow_reports_link": [],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Beiersdorf",
@@ -150,7 +160,8 @@ export const companies = [
         "web_link": "",
         "dow_reports_link": [],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "BMW",
@@ -162,7 +173,8 @@ export const companies = [
         "web_link": "https://www.bmwgroup.com/de/",
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/66/BMW-2021.pdf"],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Brenntag",
@@ -174,7 +186,8 @@ export const companies = [
         "web_link": "https://www.brenntag.com/de-de/",
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/8/Brenntag AG-2021.pdf"],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "CANCOM",
@@ -186,7 +199,8 @@ export const companies = [
         "web_link": "https://www.cancom.com/",
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/9/cancom-2021.pdf"],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Carl Zeiss Meditec",
@@ -198,7 +212,8 @@ export const companies = [
         "web_link": "https://www.zeiss.com/corporate/int/home.html",
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/10/Zeiss-2020.pdf"],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Commerzbank",
@@ -211,7 +226,8 @@ export const companies = [
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/11/Commerzbank-2021.pdf"],
         "wordcloud": [
             "/assets/companies/wordcloud/Commerzbank-2020.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Continental",
@@ -226,7 +242,8 @@ export const companies = [
 
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Covestro",
@@ -238,7 +255,8 @@ export const companies = [
         "web_link": "https://www.covestro.com/de",
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/69/Covestro-2021.pdf"],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "CTS Eventim",
@@ -250,7 +268,8 @@ export const companies = [
         "web_link": "https://www.eventim.de",
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/13/Eventim-2021.pdf"],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Daimler Truck",
@@ -263,7 +282,8 @@ export const companies = [
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/70/Truck-2020.pdf"],
         "wordcloud": [
             "/assets/companies/wordcloud/Daimler-2020.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Delivery Hero",
@@ -276,7 +296,8 @@ export const companies = [
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/71/Hero-2021.pdf"],
         "wordcloud": [
             "/assets/companies/wordcloud/DeliveryHero-2020.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Deutsche Bank",
@@ -293,7 +314,8 @@ export const companies = [
         "wordcloud": [
             "/assets/companies/wordcloud/DeutscheBank-2020.png",
             "/assets/companies/wordcloud/DeutscheBank-2021.png",
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Deutsche Börse",
@@ -305,7 +327,8 @@ export const companies = [
         "web_link": "https://www.deutsche-boerse.com/",
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/73/hr-2021.pdf", "s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/73/env-2021.pdf"],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Deutsche Post",
@@ -318,7 +341,8 @@ export const companies = [
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/74/Post-2021.xlsx"],
         "wordcloud": [
             "/assets/companies/wordcloud/DHL-2021.png"
-        ]
+        ],
+        "isXLS": "true"
     },
     {
         "firm": "Deutsche Telekom",
@@ -330,7 +354,8 @@ export const companies = [
         "web_link": "https://www.telekom.com/en",
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/75/Telekom-2021.pdf"],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Deutsche Wohnen",
@@ -342,7 +367,8 @@ export const companies = [
         "web_link": "",
         "dow_reports_link": [],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Dürr",
@@ -356,7 +382,8 @@ export const companies = [
             "https://s3.amazonaws.com/his.project.2022/30/30_ks_ag-2021.pdf", "s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/15/ag-2020.xlsx"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "true"
     },
     {
         "firm": "E.ON",
@@ -377,7 +404,8 @@ export const companies = [
             "/assets/companies/wordcloud/EON-2008.png",
             "/assets/companies/wordcloud/EON-2009.png",
             "/assets/companies/wordcloud/EON-2010.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Evonik",
@@ -391,7 +419,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/16/Evonik-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Evotec",
@@ -406,7 +435,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/17/SE-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Fraport",
@@ -420,7 +450,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/18/Fraport-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Freenet",
@@ -434,7 +465,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/19/freenet-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Fresenius",
@@ -448,7 +480,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/77/Fresenius-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Fresenius Medical Care",
@@ -462,7 +495,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/78/care-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Fuchs Petrolub",
@@ -477,7 +511,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/Fuchs-2020.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "GEA",
@@ -492,7 +527,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/GEA-2021.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Gerresheimer",
@@ -506,7 +542,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/22/AG-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Grand City Properties",
@@ -524,7 +561,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/GCP-2021.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Hannover Röck",
@@ -539,7 +577,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/HannoverRE-2020.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Heidelbergcement",
@@ -553,7 +592,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/80/HeidelbergCements-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Hellofresh",
@@ -567,7 +607,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/27/HelloFresh-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Henkel",
@@ -581,7 +622,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/82/Henkel.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "HUGO BOSS",
@@ -595,7 +637,8 @@ export const companies = [
 
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Hypoport",
@@ -607,7 +650,8 @@ export const companies = [
         "web_link": "",
         "dow_reports_link": [],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Infineon Technologies",
@@ -622,7 +666,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/83/2020.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Jungheinrich",
@@ -634,7 +679,8 @@ export const companies = [
         "web_link": "",
         "dow_reports_link": [],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "K+S",
@@ -648,7 +694,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/30/ag-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "KION Group",
@@ -662,7 +709,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/31/group-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Knorr-Bremse",
@@ -674,7 +722,8 @@ export const companies = [
         "web_link": "https://www.knorr-bremse.com/en/",
         "dow_reports_link": [],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Lanxess",
@@ -686,7 +735,8 @@ export const companies = [
         "web_link": "https://lanxess.com/de-DE",
         "dow_reports_link": ["https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/33/AG-2020.pdf"],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "LEG Immobilien",
@@ -700,7 +750,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/34/AG-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Linde",
@@ -714,7 +765,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/84/Linde-2020.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Lufthansa",
@@ -726,7 +778,8 @@ export const companies = [
         "web_link": "https://www.lufthansagroup.com/en",
         "dow_reports_link": ["https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/14/Lufthansa-2020.pdf"],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Mercedes-Benz Group",
@@ -738,7 +791,8 @@ export const companies = [
         "web_link": "https://group.mercedes-benz.com/en/",
         "dow_reports_link": ["https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/85/Group-2021.xlsx"],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "true"
     },
     {
         "firm": "Merck",
@@ -752,7 +806,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/86/2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "MTU Aero Engines",
@@ -766,7 +821,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/35/Metro-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Munich Re",
@@ -780,7 +836,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/88/re-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Nemetschek",
@@ -794,7 +851,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/37/SE-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Porsche",
@@ -808,7 +866,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/89/Porsche-AG-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Prosiebensat.1 Media",
@@ -822,7 +881,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/39/SE-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Puma",
@@ -847,7 +907,8 @@ export const companies = [
             "/assets/companies/wordcloud/PUMA-2019.png",
             "/assets/companies/wordcloud/PUMA-2020.png",
             "/assets/companies/wordcloud/PUMA-2021.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Qiagen",
@@ -861,7 +922,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/41/QIAGEN-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Rational",
@@ -875,7 +937,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/42/AG-2020.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Rheinmetall",
@@ -887,7 +950,8 @@ export const companies = [
         "web_link": "https://www.rheinmetall.com/en/rheinmetall_ag/home.php",
         "dow_reports_link": ["https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/43/AG-2021.pdf"],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "RTL",
@@ -901,7 +965,8 @@ export const companies = [
         "wordcloud": [
             "/assets/companies/wordcloud/RTLGroup-2020.png",
             "/assets/companies/wordcloud/RTLGroup-2021.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "RWE",
@@ -915,7 +980,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/92/Rwe-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "SAP",
@@ -930,7 +996,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/SAP-2021.png"
-        ]
+        ],
+        "isXLS": "true"
     },
     {
         "firm": "Sartorius",
@@ -942,7 +1009,8 @@ export const companies = [
         "web_link": "https://www.sartorius.com/en/company",
         "dow_reports_link": [],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Scout24",
@@ -957,7 +1025,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/Scout24-2021.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Siemens",
@@ -971,7 +1040,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/95/Siemens-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Siemens Energy",
@@ -983,7 +1053,8 @@ export const companies = [
         "web_link": "",
         "dow_reports_link": [],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Siemens Healthineers",
@@ -998,7 +1069,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/SiemensHealthineers-2021.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Siltronic",
@@ -1014,7 +1086,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/Siltronic-2021.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "SIXT",
@@ -1026,7 +1099,8 @@ export const companies = [
         "web_link": "",
         "dow_reports_link": [],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Software AG",
@@ -1040,7 +1114,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/50/AG-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Ströer",
@@ -1054,7 +1129,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/51/nh-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Symrise",
@@ -1068,7 +1144,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/52/AG-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "TAG Immobilien",
@@ -1082,7 +1159,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/53/Immobilien-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Talanx",
@@ -1094,7 +1172,8 @@ export const companies = [
         "web_link": "",
         "dow_reports_link": [],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Teamviewer",
@@ -1108,7 +1187,8 @@ export const companies = [
             "https://s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/54/2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Telefonica Deutschland",
@@ -1121,7 +1201,8 @@ export const companies = [
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/55/Telefonica-2021.pdf"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Thyssenkrupp",
@@ -1135,7 +1216,8 @@ export const companies = [
             "https://s3.amazonaws.com/his.project.2022/reports/group1/thyssenkrupp-GB-en-2020-2021-Web.pdf",
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Uniper",
@@ -1150,7 +1232,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/Uniper-2020.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "United Internet",
@@ -1164,7 +1247,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/UnitedInternet-2020.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Vantage Towers",
@@ -1176,7 +1260,8 @@ export const companies = [
         "web_link": "",
         "dow_reports_link": [],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Varta",
@@ -1191,7 +1276,8 @@ export const companies = [
         ],
         "wordcloud": [
             "/assets/companies/wordcloud/VARTA-2020.png"
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Volkswagen Group",
@@ -1203,7 +1289,8 @@ export const companies = [
         "web_link": "https://www.volkswagenag.com/",
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/98/Volkswagen-2021.pdf"],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Vonovia",
@@ -1216,7 +1303,8 @@ export const companies = [
         "dow_reports_link": ["s3.eu-central-1.amazonaws.com/files.sustainabilitymonitor.org/sustainability-reports/g2/99/VONOVIA-2021.xlsx"
         ],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "true"
     },
     {
         "firm": "Wacker Chemie",
@@ -1228,7 +1316,8 @@ export const companies = [
         "web_link": "",
         "dow_reports_link": [],
         "wordcloud": [
-        ]
+        ],
+        "isXLS": "false"
     },
     {
         "firm": "Zalando",
